@@ -1,0 +1,18 @@
+@media screen and (max-width:480px) {
+
+
+#adBrandBox{width: 100%; height: 40.5vw; min-height: 300px;
+ background-image: url("../../../../../img/brand/brand_i.JPG");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;}
+
+
+.brandVideo{position: relative; width: 100%; height: 100%;
+             overflow: hidden;}
+ .brandVideo>video{width: 100%; height: auto;
+  min-height: 100%; position: absolute; top:50%; left:50%; 
+  transform: translate(-50%,-50%);}
+
+
+}

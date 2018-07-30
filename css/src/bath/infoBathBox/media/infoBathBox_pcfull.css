@@ -1,0 +1,77 @@
+@media screen and (min-width:1366px) {
+
+#infoBathBox{position: relative;
+            width: 100%; height: auto; min-height: 3000px; background-color: #fff;
+}
+
+#infoBathBox>.info{
+     box-sizing: border-box; padding-top: 7%; padding-bottom: 7%;
+     width: 100%; height: 38vw; 
+     background-image: url("../../../../../img/main/blackboard.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;}
+
+/*.info{position: absolute; top:50%; left:10%; margin-top: -150px; width: 80%; height: 300px;}*/
+.info>h3{font-size: 3.5rem; text-align: center; font-weight: 900; color: #fff; }
+
+.info>h4{margin-top: 1rem; font-size: 2rem; text-align: center; font-weight: 600; color: #fff;}
+
+.video_btn{margin:auto; margin-top:3.5rem; width: 120px; height: 40px; border:3px solid #fff; font-weight: 600; font-size: 1rem; line-height: 40px; text-align: center; 
+  transition: all 400ms linear;}
+
+.video_btn>a{display: block; width: 100%; height: 100%; color: #fff;}
+.video_btn>a:hover{background-color: #fff; color: #121212;
+                     transition: all 400ms linear;}
+
+.circle_box{position: relative; z-index: 100; width: 50vw; height: 20vw; margin:-10vw auto 0; overflow: hidden; padding-top: 10vw; }
+.circle_box>.circle{width: 58.56vw; height: 58.56vw; background-color: #fff; border-radius: 100%;
+        position: absolute; left: 50%; margin-left: -29.28vw; top:3rem; z-index: -100;}
+
+.items_box{ width: 55%; height: 90%;
+          margin: auto; margin-top: -3rem;
+          background-image: url("../../../../../img/bath/itemsbox.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;}
+
+.circle_box h4{
+  position: absolute; right:35%; bottom: 15%;
+  width: 90px; height: 90px;
+  background-image: url("../../../../../img/bath/15items_c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;}
+
+  .arrow{position: absolute; right: 18%; bottom: -10%;
+         transform:rotate(-18deg);
+         width: 100px; height: 250px;
+         background-image: url("../../../../../img/bath/15items_arrow.svg");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;}
+
+.info_body ul{margin: auto;  width: 60%; height: auto;}
+.info_body ul>li{width:21%; height:350px; float: left; margin-right: 5%;  margin-bottom: 5%; box-sizing: border-box; padding: 2rem;
+                          
+            transform:translateY(5rem);
+            transition:all 800ms ease;
+            opacity: 0;}
+
+.info_body ul>li.active{opacity: 1; transform:rotate(0) translate(0,0);}    
+
+
+
+.info_body ul>li>div{width: 100%; height:50%; margin-bottom: 5%;}
+.info_body ul>li>a{display: block; width: 100%; height: 40%;}
+.info_body ul>li>a:hover{text-decoration: underline;}
+.info_body ul>li>dl{width: 100%; height: 40%;}
+.info_body ul>li dt{font-weight: 900; font-size: 1.2rem;text-align: center;
+                     margin-bottom: 1rem;}
+.info_body ul>li dd{font-size: 1rem; text-align: center;}
+.info_body ul>li:nth-child(4){margin-right: 0;}
+.info_body ul>li:nth-child(8){margin-right: 0;}
+
+
+  
+}

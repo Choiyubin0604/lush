@@ -1,0 +1,96 @@
+@media screen and (min-width:768px) and (max-width:1365px) {
+  #footBox{width: 100%; height: 500px; background-color: #121212;}
+
+  .foot{box-sizing: border-box; padding-top: 15rem; margin:auto;
+        width:60%; height: 100%; background-repeat: #333; }
+  .foot>ul{width: 100%; height: 80%; position: relative;}
+  .foot>ul>li{width: 32%;}
+  .foot>ul>.l_foot{height: 80%;float: left; margin-right: 2%; float: left;}
+  .l_foot>h2{height:50px; width: 85%; margin-bottom: 1rem; margin-top: -1rem;
+              background-image: url("../../../../../img/main/lush_logo.png");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+
+
+
+  .l_foot>.sns{height: auto; width: 100%;}
+  .facebook{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/facebook.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+  .instagrame{float: left; width: 25px; height: 25px; margin-right: 0.4rem;
+              background-image: url("../../../../../img/main/instagram.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+  .youtube{float: left; width: 25px; height: 25px; margin-right: 0.4rem;
+              background-image: url("../../../../../img/main/youtube.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+  .twitter{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/twitter.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;}
+
+    .facebook>a{display: block; width: 100%; height: 100%;}
+    .facebook>a:hover{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/facebook_h.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+
+    }
+    .instagrame>a{display: block; width: 100%; height: 100%;}
+    .instagram>a:hover{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/instagram_h.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+
+    }
+    .youtube>a{display: block; width: 100%; height: 100%;}
+    .youtube>a:hover{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/youtube_h.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+
+    }
+    .twitter>a{display: block; width: 100%; height: 100%;}
+    .twitter>a:hover{float: left; width: 25px; height: 25px;
+              background-image: url("../../../../../img/main/twitter_h.svg");
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+
+    }
+
+
+
+
+  .foot>ul>.m_foot{height: 80%; position: absolute; left:50%; margin-left: -80px;}
+  .m_foot>dl{width: 100%; height: 100%}
+  .m_foot>dl>dt{width: 100%; height: auto;font-size: 1rem; color: #fff; font-weight: 900;
+                margin-bottom: 1rem;}
+  .m_foot>dl>dd{width: 100%; height: auto;font-size: 0.9rem; color: #fff; font-weight: 600;}
+
+   .m_foot>dl>dd>a{display:block; width: 100%; height: 100%; color: inherit;}
+   .m_foot>dl>dd>a:hover{text-decoration: underline;}
+
+
+  .foot>ul>.r_foot{height: 80%;float: left; margin-right: 0.2rem; float: right;}
+  .r_foot>dl{width: 100%; height: 100%}
+  .r_foot>dl>dt{width: 100%; height: auto;font-size: 1rem; color: #fff; font-weight: 900;
+                margin-bottom: 1rem;}
+  .r_foot>dl>dd{width: 100%; height: auto;font-size: 0.9rem; color: #fff; font-weight: 600;}
+
+  .r_foot>dl>dd>a{display:block; width: 100%; height: 100%; color: inherit;}
+  .r_foot>dl>dd>a:hover{text-decoration: underline;}
+ 
+  .Copyright{color: #fff; font-size: 0.8rem; text-align: center;} 
+
+}

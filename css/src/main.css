@@ -1,0 +1,48 @@
+@import url("./all/headBox/headBox.css");
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+
+@import url("./main/movieBox/media/movieBox_mobile.css");
+@import url("./main/movieBox/media/movieBox_tab.css");
+@import url("./main/movieBox/media/movieBox_pc.css");
+@import url("./main/movieBox/media/movieBox_pcfull.css");
+
+
+@import url("./main/adBox/media/adBox_mobile.css");
+@import url("./main/adBox/media/adBox_tab.css");
+@import url("./main/adBox/media/adBox_pc.css");
+@import url("./main/adBox/media/adBox_pcfull.css");
+
+@import url("./main/bestBox/bestBox.css");
+@import url("./main/bestBox/media/bestBox_mobile.css");
+@import url("./main/bestBox/media/bestBox_tab.css");
+@import url("./main/bestBox/media/bestBox_pc.css");
+@import url("./main/bestBox/media/bestBox_pcfull.css");
+
+
+@import url("./main/infoBox/media/infoBox_mobile.css");
+@import url("./main/infoBox/media/infoBox_tab.css");
+@import url("./main/infoBox/media/infoBox_pc.css");
+@import url("./main/infoBox/media/infoBox_pcfull.css");
+
+@import url("./main/eventBox/eventBox.css");
+@import url("./main/eventBox/media/eventBox_mobile.css");
+@import url("./main/eventBox/media/eventBox_tab.css");
+@import url("./main/eventBox/media/eventBox_pc.css");
+@import url("./main/eventBox/media/eventBox_pcfull.css");
+
+
+@import url("./main/iconBox/iconBox.css");
+@import url("./main/iconBox/media/iconBox_mobile.css");
+@import url("./main/iconBox/media/iconBox_tab.css");
+@import url("./main/iconBox/media/iconBox_pc.css");
+@import url("./main/iconBox/media/iconBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

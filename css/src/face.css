@@ -1,0 +1,35 @@
+@import url("./all/headBox/headBox.css");
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+@import url("./face/adFaceBox/adFaceBox.css");
+@import url("./face/adFaceBox/media/adFaceBox_mobile.css");
+@import url("./face/adFaceBox/media/adFaceBox_tab.css");
+@import url("./face/adFaceBox/media/adFaceBox_pc.css");
+@import url("./face/adFaceBox/media/adFaceBox_pcfull.css");
+
+
+@import url("./face/infoFaceBox/media/infoFaceBox_mobile.css");
+@import url("./face/infoFaceBox/media/infoFaceBox_tab.css");
+@import url("./face/infoFaceBox/media/infoFaceBox_pc.css");
+@import url("./face/infoFaceBox/media/infoFaceBox_pcfull.css");
+
+
+@import url("./face/productFaceBox/media/productFaceBox_mobile.css");
+@import url("./face/productFaceBox/media/productFaceBox_tab.css");
+@import url("./face/productFaceBox/media/productFaceBox_pc.css");
+@import url("./face/productFaceBox/media/productFaceBox_pcfull.css");
+
+@import url("./main/iconBox/iconBox.css");
+@import url("./main/iconBox/media/iconBox_mobile.css");
+@import url("./main/iconBox/media/iconBox_tab.css");
+@import url("./main/iconBox/media/iconBox_pc.css");
+@import url("./main/iconBox/media/iconBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

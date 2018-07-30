@@ -1,0 +1,7 @@
+#iconBox{width: 100%;}
+
+.icon{margin:auto;
+  background-image: url("../../../../img/main/icon.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;}
