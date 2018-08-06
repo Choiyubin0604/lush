@@ -1,5 +1,7 @@
 //headBox.js
 (function($){
+
+
   var winW = $(window).outerWidth();
   var gnbBtn = $('#menu');
   var gnb = $('#gnb').find('ul');

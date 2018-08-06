@@ -1,0 +1,58 @@
+@import url("./all/headBox/headBox.css");
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+
+@import url("./spa/spaFullBox/media/spaFullBox_mobile.css");
+@import url("./spa/spaFullBox/media/spaFullBox_tab.css");
+@import url("./spa/spaFullBox/media/spaFullBox_pc.css");
+@import url("./spa/spaFullBox/media/spaFullBox_pcfull.css");
+
+
+@import url("./spa/aspaBox/media/aspaBox_mobile.css");
+@import url("./spa/aspaBox/media/aspaBox_tab.css");
+@import url("./spa/aspaBox/media/aspaBox_pc.css");
+@import url("./spa/aspaBox/media/aspaBox_pcfull.css");
+
+
+@import url("./spa/bspaBox/media/bspaBox_mobile.css");
+@import url("./spa/bspaBox/media/bspaBox_tab.css");
+@import url("./spa/bspaBox/media/bspaBox_pc.css");
+@import url("./spa/bspaBox/media/bspaBox_pcfull.css");
+
+
+@import url("./spa/cspaBox/media/cspaBox_mobile.css");
+@import url("./spa/cspaBox/media/cspaBox_tab.css");
+@import url("./spa/cspaBox/media/cspaBox_pc.css");
+@import url("./spa/cspaBox/media/cspaBox_pcfull.css");
+
+
+@import url("./spa/spellFullBox/media/spellFullBox_mobile.css");
+@import url("./spa/spellFullBox/media/spellFullBox_tab.css");
+@import url("./spa/spellFullBox/media/spellFullBox_pc.css");
+@import url("./spa/spellFullBox/media/spellFullBox_pcfull.css");
+
+
+@import url("./spa/soundFullBox/media/soundFullBox_mobile.css");
+@import url("./spa/soundFullBox/media/soundFullBox_tab.css");
+@import url("./spa/soundFullBox/media/soundFullBox_pc.css");
+@import url("./spa/soundFullBox/media/soundFullBox_pcfull.css");
+
+@import url("./spa/tailorFullBox/media/tailorFullBox_mobile.css");
+@import url("./spa/tailorFullBox/media/tailorFullBox_tab.css");
+@import url("./spa/tailorFullBox/media/tailorFullBox_pc.css");
+@import url("./spa/tailorFullBox/media/tailorFullBox_pcfull.css");
+
+
+@import url("./spa/valFullBox/media/valFullBox_mobile.css");
+@import url("./spa/valFullBox/media/valFullBox_tab.css");
+@import url("./spa/valFullBox/media/valFullBox_pc.css");
+@import url("./spa/valFullBox/media/valFullBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

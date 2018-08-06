@@ -17,6 +17,9 @@
   <title>LUSH</title>
 </head>
 <body>
+  <div class="loading">
+    <p>L O D I N G...</p>
+  </div>
  <div id="wrap">
  
   <header id="headBox">
@@ -43,9 +46,9 @@
             </li>
             <li><a href="face.html">face</a>
             </li>
-            <li><a href="#">perfumes</a>
+            <li><a href="perfume.html">perfumes</a>
             </li>
-            <li><a href="#">spa</a></li>
+            <li><a href="spa.html">spa</a></li>
             <li> <a href="brand.html">brand</a></li>
           </ul>
         </nav><!-- // #gnb -->
@@ -370,7 +373,23 @@
   <script src="../js/src/headBox.js"></script>
   <script src="../js/src/adBox.js"></script>
   <script src="../js/src/eventBox.js"></script>
+  <script>
+  
+  /*
+  $(window).on('load', function(){
+    $('.loading').fadeOut(300, function(){
+      $(this).remove();
+    });
+    console.log('로딩완료');
+  });
+  */
 
+  setTimeout(function(){
+    $('.loading').fadeOut(300);
+    console.log('로딩완료');
+  },1000);
+
+  </script>
 
 </body>
 </html>

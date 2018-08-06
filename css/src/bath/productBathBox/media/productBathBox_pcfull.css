@@ -67,7 +67,7 @@ body{overflow-x: hidden;}
 .list>ul>li>a{box-sizing: border-box; padding-top: 1rem;
     padding-bottom: 1rem;
   display: block; width: 100%; height: auto; color: inherit;}      
-.list>ul>li>a:hover{background-color: rgba(0,0,0,0.4);}
+.list>ul>li>a:hover{background-color: rgba(0,0,0,0.8);}
 .list>ul>li:nth-child(1){background-color: #007696;}
 .list>ul>li:nth-child(2){background-color: #095580;}
 .list>ul>li:nth-child(3){background-color: #3F1550}

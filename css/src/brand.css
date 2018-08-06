@@ -10,11 +10,17 @@
 @import url("./brand/adBrandBox/media/adBrandBox_pc.css");
 @import url("./brand/adBrandBox/media/adBrandBox_pcfull.css");
 
+@import url("./brand/newsBox/media/newsBox_mobile.css");
+@import url("./brand/newsBox/media/newsBox_tab.css");
+@import url("./brand/newsBox/media/newsBox_pc.css");
+@import url("./brand/newsBox/media/newsBox_pcfull.css");
 
-@import url("./brand/brandTabBox/media/brandTabBox_mobile.css");
-@import url("./brand/brandTabBox/media/brandTabBox_tab.css");
-@import url("./brand/brandTabBox/media/brandTabBox_pc.css");
-@import url("./brand/brandTabBox/media/brandTabBox_pcfull.css");
+@import url("./brand/infoBrandBox/media/infoBrandBox_mobile.css");
+@import url("./brand/infoBrandBox/media/infoBrandBox_tab.css");
+@import url("./brand/infoBrandBox/media/infoBrandBox_pc.css");
+@import url("./brand/infoBrandBox/media/infoBrandBox_pcfull.css");
+
+
 
 @import url("./main/iconBox/iconBox.css");
 @import url("./main/iconBox/media/iconBox_mobile.css");
