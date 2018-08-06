@@ -1,0 +1,38 @@
+@media screen and (min-width:1366px) {
+
+html,body{overflow-x: hidden;}
+.spellFullBox{position: relative; width: 100%; height: 100%;}
+
+.spellFullBox{opacity: 0; padding-top: 10rem; transition:opacity 1s linear, padding-top 1.5s ease;}
+.spellFullBox.active{opacity: 1; padding-top: 0;}
+
+
+.spellFullBox:before{content: " "; display: block; width: 2px; height: 100px; 
+position: absolute;  bottom: 0; left: 50%; margin-left: -1px; z-index: 1000; background-color: #fff; animation:ani 2000ms infinite ease alternate; }
+
+@keyframes ani {
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-5rem);}
+}
+
+.fullVideo1{position: relative; width: 100%; height: 100%; overflow: hidden; 
+           background-image: url(../../../../../img/spa/spell_i.jpg);
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;}
+
+.fullVideo1 > video{display: none; position: absolute; top: 50%; left: 50%; 
+transform:translate(-50%, -50%); width: auto; height: auto; min-width: 100%; min-height: 100%;}
+
+.spelltext{position: absolute; left: 15%; top:25%; width: 70%; height: 50%; margin:auto;} 
+
+.spelltext>h2{margin: auto; text-align: center; color:#fff; font-weight: 900;
+              font-size: 4rem; box-sizing: border-box; padding-top: 7rem;}
+
+.spelltext>h3{margin:auto; text-align: center; color: #fff; font-size: 2rem;font-weight: 300;
+box-sizing: border-box; padding-top: 3rem;}
+
+.video{width: 120px; height: 40px; border: 2px solid #fff; color: #fff; display: block; margin: auto; margin-top: 5rem;}
+
+.video:hover{background-color: #fff; color: #121212;}
+}

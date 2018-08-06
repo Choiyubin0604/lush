@@ -1,0 +1,34 @@
+@import url("./all/headBox/headBox.css");
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+@import url("./perfume/adPerfumeBox/adPerfumeBox.css");
+@import url("./perfume/adPerfumeBox/media/adPerfumeBox_mobile.css");
+@import url("./perfume/adPerfumeBox/media/adPerfumeBox_tab.css");
+@import url("./perfume/adPerfumeBox/media/adPerfumeBox_pc.css");
+@import url("./perfume/adPerfumeBox/media/adPerfumeBox_pcfull.css");
+
+@import url("./perfume/infoPerfumeBox/media/infoPerfumeBox_mobile.css");
+@import url("./perfume/infoPerfumeBox/media/infoPerfumeBox_tab.css");
+@import url("./perfume/infoPerfumeBox/media/infoPerfumeBox_pc.css");
+@import url("./perfume/infoPerfumeBox/media/infoPerfumeBox_pcfull.css");
+
+
+@import url("./perfume/productPerfumeBox/media/productPerfumeBox_mobile.css");
+@import url("./perfume/productPerfumeBox/media/productPerfumeBox_tab.css");
+@import url("./perfume/productPerfumeBox/media/productPerfumeBox_pc.css");
+@import url("./perfume/productPerfumeBox/media/productPerfumeBox_pcfull.css");
+
+@import url("./main/iconBox/iconBox.css");
+@import url("./main/iconBox/media/iconBox_mobile.css");
+@import url("./main/iconBox/media/iconBox_tab.css");
+@import url("./main/iconBox/media/iconBox_pc.css");
+@import url("./main/iconBox/media/iconBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

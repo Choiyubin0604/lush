@@ -1,0 +1,71 @@
+@media screen and (max-width:480px) {
+
+.infoBrandBox{width: 100%; height: auto;}
+
+.news_03{width: 100%; height: 45vw; background-image: url('../../../../../img/brand/news_03_i.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;}
+
+
+.infoText{box-sizing: border-box; padding-top: 14%;
+          width: 80%; height: 80%; margin: auto;}
+.infoText>h3{font-size: 2rem; text-align: center; font-weight: 900;}
+.infoText>p{font-size: 1rem; text-align: center; font-weight: 600;}
+
+
+.info_01{width: 100%; height: 500px; margin: auto; margin-bottom: 4rem;
+         margin-top: 5rem;}
+
+.info_01_i{width: 50%; height: 50%; margin:auto;
+        background-image: url('../../../../../img/brand/info_1.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;}
+.info_01>dl{box-sizing: border-box; padding-top: 2rem;
+            width: 80%; height: 40%; margin:auto;}
+.info_01 dt{width: 100%; font-size: 1rem; font-weight: 900;}
+.info_01 dd{width: 100%; font-size: 0.875rem; font-weight: 600; margin-top: 1rem;}
+
+.info_02{width: 100%; height: 500px; margin: auto; margin-bottom: 4rem;
+         }
+
+.info_02_i{width: 50%; height: 50%; margin:auto;
+        background-image: url('../../../../../img/brand/info_2.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;}
+.info_02>dl{box-sizing: border-box; padding-top: 2rem;
+            width: 80%; height: 40%; margin:auto;}
+.info_02 dt{width: 100%; font-size: 1rem; font-weight: 900;}
+.info_02 dd{width: 100%; font-size: 0.875rem; font-weight: 600; margin-top: 1rem;}
+
+
+.info_03{width: 100%; height: 500px; margin: auto; margin-bottom: 4rem;
+         }
+
+.info_03_i{width: 50%; height: 50%; margin:auto;
+        background-image: url('../../../../../img/brand/info_3.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;}
+.info_03>dl{box-sizing: border-box; padding-top: 2rem;
+            width: 80%; height: 40%; margin:auto;}
+.info_03 dt{width: 100%; font-size: 1rem; font-weight: 900;}
+.info_03 dd{width: 100%; font-size: 0.875rem; font-weight: 600; margin-top: 1rem;}
+
+
+.info_04{width: 100%; height: 500px; margin: auto; margin-bottom: 4rem;
+         }
+
+.info_04_i{width: 50%; height: 50%; margin:auto;
+        background-image: url('../../../../../img/brand/info_4.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;}
+.info_04>dl{box-sizing: border-box; padding-top: 2rem;
+            width: 80%; height: 40%; margin:auto;}
+.info_04 dt{width: 100%; font-size: 1rem; font-weight: 900;}
+.info_04 dd{width: 100%; font-size: 0.875rem; font-weight: 600; margin-top: 1rem;}
+
+}

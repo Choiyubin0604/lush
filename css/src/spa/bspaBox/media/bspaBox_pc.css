@@ -1,0 +1,30 @@
+@media screen and (min-width:768px) and (max-width:1365px) {
+
+html,body{overflow-x: hidden;}
+.bspaBox{width: 100%; height: 100%; position: relative;
+           background-size: cover;
+           background-position: center;
+           background-repeat: no-repeat;}
+
+
+.bspaBox{opacity: 0; padding-top: 10rem; transition:opacity 1s linear, padding-top 1.5s ease;}
+.bspaBox.active{opacity: 1; padding-top: 0;}
+
+
+.bspaBox:before{content: " "; display: block; width: 2px; height: 100px; 
+position: absolute;  bottom: 0; left: 50%; margin-left: -1px; z-index: 1000; background-color: #fff; animation:ani 2000ms infinite ease alternate; }
+
+@keyframes ani {
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-5rem);}
+}
+
+.bspatext{position: absolute; left: 25%; top:25%; width: 50%; height: 50%; margin:auto;}
+
+.bspatext>h3{margin:auto; text-align: center; color: #fff; font-size: 1.7rem;font-weight: 300;
+box-sizing: border-box; padding-top: 5rem;}
+
+.bspatext>h3>span{font-size: 2rem; font-weight: 600;}
+
+
+}

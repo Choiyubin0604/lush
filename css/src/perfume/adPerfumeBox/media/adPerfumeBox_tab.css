@@ -1,0 +1,9 @@
+@media screen and (min-width:481px) and (max-width:767px) {
+
+#adPerfumeBox{widows: 100%; height: 400px;}
+.adtext{width: 100%; height: 200px; margin:auto;
+        box-sizing: border-box; padding-top: 7rem;}
+.adtext>h2{margin-bottom: 1rem; font-size: 3rem; text-align: center; font-weight: 900; color: #fff;}
+.adtext>h3{font-size: 1.3rem; text-align: center; font-weight: 600; color: #fff;}
+
+}
