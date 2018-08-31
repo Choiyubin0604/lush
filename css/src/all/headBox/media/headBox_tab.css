@@ -26,3 +26,5 @@
                           transform: rotate(-40deg);}
 #menu.active .line:after{transform-origin: left top; width: 110%;
                           transform: rotate(40deg);}
+
+  }
