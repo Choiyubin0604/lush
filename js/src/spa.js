@@ -6,91 +6,27 @@
   var sound = $('.soundFullBox');
   var val = $('.valFullBox');
   var tailor = $('.tailorFullBox');
-
-  var spaOffset = [];
-      spaOffset[0] = aspa.offset().top;
-      spaOffset[1] = bspa.offset().top;
-      spaOffset[2] = cspa.offset().top;
-      spaOffset[3] = spell.offset().top;
-      spaOffset[4] = sound.offset().top;
-      spaOffset[5] = val.offset().top;
-      spaOffset[6] = tailor.offset().top;
-
-  aspa.addClass('active');
-
-console.log(spaOffset);
-  var i = 0, bool = true;
-  $('html, body').on('mousewheel',function(e){
-    var wheelValue = e.originalEvent.wheelDelta;
-    var nT = $('#wrap').offset().top * -1;
-    console.log(wheelValue);
-    if(wheelValue < 0 && bool){
-      bool = false;
-      i+=1; 
-    }
-    if(wheelValue > 0 && bool){
-      bool = false;
-      i-=1; 
-    }
-
-    $('body').animate({scrollTop:spaOffset[i]},function(){
-        switch(i){
-          case 0:
-          aspa.addClass('active');
-          bspa.removeClass('active');
-          cspa.removeClass('active');
-          spell.removeClass('active');
-          sound.removeClass('active');
-          break;
-          case 1:
-          bspa.addClass('active');
-          aspa.removeClass('active');
-          cspa.removeClass('active');
-          spell.removeClass('active');
-          sound.removeClass('active'); 
-          break;
-          case 2:
-          cspa.addClass('active');
-          aspa.removeClass('active');
-          bspa.removeClass('active');
-          spell.removeClass('active');
-          sound.removeClass('active');
-          break;
-          case 3:
-          spell.addClass('active');
-          cspa.removeClass('active');
-          aspa.removeClass('active');
-          bspa.removeClass('active');
-          sound.removeClass('active');
-          break;
-          case 4:
-          sound.addClass('active');
-          spell.removeClass('active');
-          cspa.removeClass('active');
-          aspa.removeClass('active');
-          bspa.removeClass('active');
-          break;
-          case 5:
-          val.addClass('active');
-          sound.removeClass('active');
-          spell.removeClass('active');
-          cspa.removeClass('active');
-          aspa.removeClass('active');
-          bspa.removeClass('active');
-          break;
-          case 6:
-          tailor.addClass('active');
-          val.removeClass('active');
-          sound.removeClass('active');
-          spell.removeClass('active');
-          cspa.removeClass('active');
-          aspa.removeClass('active');
-          bspa.removeClass('active');
-          break;
-        }
-        bool = true;
-    });
+  var footer = $('#footBox');
+  var box = $('.box');
+  var boxList = [];
+  var boxLen = box.length;
+  var j = 0;
+  var fullMedia = $('.fullVideo');
+  var fullVideo = fullMedia.children('video')[0];
+  // video --------------------------------------------------
+  var vbtn = $('.video'); 
+  vbtn.on('click', function(e){
+    $(this).parent().prev().children('video').fadeIn();
   });
+  // --------------------------------------------------------
+  var sel = [aspa,bspa,cspa,spell,sound,val,tailor, footer];
+  var spaOffset = [];
+  for(var l=0; l<sel.length; l++){
+    spaOffset[l]=sel[l].offset().top;
+  }
+  sel[0].addClass('active');
+  // ------------------------------------------------------
+
 
 /*
 .aspa{background-image:url(); transition:background-image 400ms linear;}
@@ -98,13 +34,9 @@ console.log(spaOffset);
 
 
 */
-
-  var vbtn = $('.video'); 
-
-    vbtn.on('click', function(){
-    $(this).parent().prev().children('video').fadeIn();
-  });
-
+  var i = 0, bool = true;
+// mouse scroll ----------------------------------------------------------
+  $('html,body').on('mousewheel DOMMouseScroll', function(e){
     var originE = e.originalEvent;
     var delta = evt;  
     var foxevt = originE.detail; // firefox에 존재
@@ -120,8 +52,58 @@ console.log(spaOffset);
       //console.log('wheelDelta 속성이 존재한다!!!', evt);
       delta = evt;
     }
-    console.log(delta);
+    //console.log(delta);
 
+    
+    if(bool == true) {
+      bool=false;
+      if(delta <0){
+        (j>= boxLen-1) ? j = boxLen-1 : j+=1;
+      }else if(delta>0){           
+        (j<=0) ? j=0: j-=1;
+      }
 
+  // video 설정
+  if(j >= 3){ 
+     fullVideo.pause();
+     fullMedia.fadeOut();
+  }else{ 
+    fullMedia.fadeIn(
+      function(){
+        fullVideo.play();
+      });
+  }
+  // ---------------------------
+    var RemoveC = function(){
+      $.each(sel,function(i,v){
+        sel[i].removeClass('active');
+      });
+    };
+
+    $('body').animate({scrollTop:spaOffset[j]},function(){
+      RemoveC();   
+      sel[j].addClass('active');
+    });
+  // ---------------------------
+
+   $('html').stop(true, false)
+            .animate({scrollTop:boxList[j]}, 600, 'easeInQuad', function(){  
+              setTimeout(
+                function(){
+                  bool=true;
+                },700); 
+            });
+    } //if
+  });// mousewheel && DOMMouseScroll
+
+var ww = $(window).outerWidth();
+$(window).on('resize',function() {
+var nw = $(window).outerWidth();
+if(ww !== nw){
+location.reload();
+
+  }
+
+ });
 })(jQuery);
           

@@ -13,7 +13,6 @@ var rwd = function(){
     $('.pro').css({height:listBoxH});
     proText.css({height:listBoxH});
     
-    // proBox.children('dl').css({position:'absolute', bottom:0, left:0});
   }
 
 };

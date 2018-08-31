@@ -20,38 +20,35 @@
   <div class="loading">
     <p>L O D I N G...</p>
   </div>
- <div id="wrap">
+
  
   <header id="headBox">
 
     
 <nav id="gnb">
-    <h2 class="hidden">nav</h2>
-    <button type="button" id="menu"><span class="line"></span>
-    <span class="hidden">메뉴버튼</span></button>
-
-<!--       <ul>
-        <li> <a href="#"></a>     </li>
-        <li> <a href="#">face</a>     </li>
-        <li> <a href="#"></a> </li>
-        <li> <a href="#"></a>      </li>
-        <li> <a href="#">brand</a>    </li>
-      </ul> -->
-
-
-
-          <ul>
-            <li>
-              <a href="bath.html">bath</a>
-            </li>
-            <li><a href="face.html">face</a>
-            </li>
-            <li><a href="perfume.html">perfumes</a>
-            </li>
-            <li><a href="spa.html">spa</a></li>
-            <li> <a href="brand.html">brand</a></li>
-          </ul>
-        </nav><!-- // #gnb -->
+  <h2 class="hidden">nav</h2>
+  <button type="button" id="menu">
+    <span class="line"></span>
+    <span class="hidden">메뉴버튼</span>
+  </button>
+     <ul>
+       <li>
+         <a href="bath.html">bath</a>
+       </li>
+       <li>
+        <a href="face.html">face</a>
+       </li>
+       <li>
+        <a href="perfume.html">perfumes</a>
+       </li>
+       <li>
+        <a href="spa.html">spa</a>
+      </li>
+       <li>
+        <a href="brand.html">brand</a>
+      </li>
+     </ul>
+   </nav><!-- // #gnb -->
         
     <h1 class="hidden_wrap" title="LUSH 사이트에 오신것을 환영합니다."><a href="main.html"><span class="hidden">logo</span></a></h1>
 
@@ -68,10 +65,10 @@
   <section id="movieBox">
     <h2 class="hidden">moviBox</h2>
     <div class="video_wrap">
-      <video autoplay="autoplay" muted="muted" poster="../../../../../img/main/main_img.jpg" loop="loop">
+      <video autoplay="autoplay" muted="muted" 
+      poster="../../../../../img/main/main_img.jpg" loop="loop">
         <source src="../img/main/main_movie.mp4" type="video/mp4" />
-        <p>현~</p>
-
+        <p>재생이 불가능한 브러우저 입니다.</p>
       </video>
     </div>
 
@@ -253,6 +250,7 @@
     </a></div>
     </div>
   </aside>
+  
   <article id="eventBox">
 
     <h2><span class="hidden">event_logo</span></h2>
@@ -350,7 +348,7 @@
 
         <li class="r_foot">
           <dl>
-            <dt>Helpful information</dt>
+            <dt>Helpful information</+dt>
             <dd><a href="#">Delivery Information</a></dd>
             <dd><a href="#">Refunds & Returns</a></dd>
             <dd><a href="#">Careers at Lush</a></dd>
@@ -374,16 +372,7 @@
   <script src="../js/src/adBox.js"></script>
   <script src="../js/src/eventBox.js"></script>
   <script>
-  
-  /*
-  $(window).on('load', function(){
-    $('.loading').fadeOut(300, function(){
-      $(this).remove();
-    });
-    console.log('로딩완료');
-  });
-  */
-
+    
   setTimeout(function(){
     $('.loading').fadeOut(300);
     console.log('로딩완료');
